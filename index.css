@@ -1,125 +1,50 @@
-body{
-    background: #bdc3c7;
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
-background: linear-gradient(to right, #2c3e50, #bdc3c7); 
-}
-
-.navbar {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.navbar-logo img {
-    width: 100px;
-    height: auto;
-}
-
-.navbar-menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.navbar-menu li {
-    margin-right: 20px;
-}
-
-.navbar-menu a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.navbar-menu a:hover {
-    color: #ff9900; /* Cambia el color al pasar el cursor por encima */
-}
-
-/* Estilos para el contenido principal */
-.content {
-    /* Agrega estilos según tus necesidades */
-    padding: 20px;
-}
-
-
-
-
-.content {
-        padding: 20px;
- }
-
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-    position: absolute;
-}
-
-/* Estilos para el contenido del footer */
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Estilos para cada sección del footer */
-.footer-section {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.footer-section h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.footer-section p {
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
-}
-
-/* Estilos para la lista de iconos de redes sociales */
-.social-icons {
-    list-style: none;
     padding: 0;
-    display: flex;
-    align-items: center;
+    background: #2c3e50;
+    color: #fff;
+    line-height: 1.6;
 }
 
-.social-icons li {
-    margin-right: 10px;
-}
-
-.social-icons img {
-    width: 32px;
-    height: 32px;
-}
-
-/* Estilos para el pie de página */
-.footer-bottom {
+header {
     text-align: center;
-    background-color: #222;
-    padding: 10px 0;
-}
-
-.footer-bottom p {
-    margin: 0;
-}
-
-/* Estilos para los enlaces en el pie de página */
-.footer-content a {
+    background-color: #2a2a2a;
     color: #fff;
-    text-decoration: none;
+    padding: 20px 0;
 }
 
-.footer-content a:hover {
-    text-decoration: underline;
+section {
+    margin: 20px;
 }
-.img{
-         
+
+h1, h2, h3 {
+    color: #3494e6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+section {
+    background-color: rgb(14, 14, 14);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
 }
